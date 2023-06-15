@@ -4,7 +4,7 @@
 DEFAULT_POLL_TIMEOUT=10
 POLL_TIMEOUT=${POLL_TIMEOUT:-$DEFAULT_POLL_TIMEOUT}
 
-git checkout "${GITHUB_REF:11}"
+git checkout "${GITHUB_REF##*/}"
 
 branch="$(git symbolic-ref --short HEAD)"
 
