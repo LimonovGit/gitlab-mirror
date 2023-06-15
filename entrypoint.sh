@@ -1,9 +1,9 @@
 #!/bin/sh
 
-export GITLAB_HOSTNAME="gitlab.autoecommerce.ru"
-export GITLAB_USERNAME="d.shishlov"
-export GITLAB_PASSWORD="glpat-fY6xxpqGg4V1Xvr3n9bq"
-export GITLAB_PROJECT_ID="45"
+#export GITLAB_HOSTNAME="gitlab.autoecommerce.ru"
+#export GITLAB_USERNAME="d.shishlov"
+#export GITLAB_PASSWORD="glpat-fY6xxpqGg4V1Xvr3n9bq"
+#export GITLAB_PROJECT_ID="45"
 
 set -u
 DEFAULT_POLL_TIMEOUT=10
