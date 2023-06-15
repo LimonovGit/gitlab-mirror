@@ -8,6 +8,7 @@ git checkout "${GITHUB_REF##*/}"
 
 branch="$(git symbolic-ref --short HEAD)"
 
+sh -c "git config --global --add safe.directory '*'"
 sh -c "git config --global credential.username $GITLAB_USERNAME"
 sh -c "git config --global core.askPass $GITLAB_PASSWORD"
 sh -c "git config --global credential.helper cache"
